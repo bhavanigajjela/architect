@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture</title>
+    <link rel="icon" href="./media/br.jpg">
+    <style>
+        .container{
+            
+            width: auto;
+            height:auto;
+            background-color:blanchedalmond;
+            text-align: center;
+            color:black;
+        }
+        .ul{
+            display:flex;
+            margin:10px;
+            text-align: center;
+            justify-content:space-around;
+            position: relative;
+            padding:6px 6px;
+           
+        }
+        .li{
+            color:brown;
+            text-align: center;
+            text-decoration: none;
+            text-transform: capitalize;
+        }
+
+        #BR Architects{
+            width:50%;
+            height:50%;
+            position:relative;
+            margin:150px;
+            padding:15px;
+            text-transform: capitalize;
+        }
+        #id{
+            text-transform: capitalize;
+            position:absolute;
+            top:50%;
+            left:50%;
+            font-size: x-large;
+            font-family: Verdana;
+        }
+         .container1{
+            position:relative;
+            margin-top:0px;
+            display:flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            gap: 10px;
+            padding:10px 30px;
+         }   
+         .text1{ 
+            position:absolute;
+            margin:10px 0px;
+            color:rgb(118, 224, 134);
+            background-color: rgb(76, 66, 66);
+            font-size: medium;
+            font-family:Verdana;
+         }
+         .container2{
+             position:relative;
+            margin-top:0px;
+            display:flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            gap: 10px;
+            padding:10px 30px;
+         } 
+         .text{ 
+            position:absolute;
+            color:rgb(118, 224, 134);
+            background-color: rgb(76, 66, 66);
+            font-size: medium;
+            font-family:Verdana;
+         }
+         #About{
+            text-align: justify;
+            padding:15px;
+         }
+         .hover{
+            background-color: cyan;
+        }
+        p.cntct:hover{
+            background-color:burlywood!important;
+            color:aqua!important;
+        }
+        button.btn:hover{
+            background-color:rgb(129, 188, 190)!important;
+            color: rgb(160, 67, 67)!important;
+                }
+                .footr{
+                    text-align: center;
+                    background-color: black;
+                    color: bisque;
+                    width:auto;
+                    height:70px;
+                    font-size:x-large;
+                    justify-content: center;
+                    padding:1px;
+                }
+    </style>
+
+
+
+
+
+
+
+
+</head>
+<body>
+     <div class="container">
+        <nav>
+            <ul class="ul">
+                <li class="li"><a href="#BR Architects">BR Architects</a></li>
+                <li class="li"><a href="#projects">Projects</a></li>
+                <li class="li"><a href="#About">About</a></li>
+                <li class="li"><a href="#Contact">Contact</a></li>
+                
+            </ul>
+        </nav><br>
+        </div>
+        <section id="BR Architects">
+            <img src="./media/architect.jpg">
+            <span id="id"><b style="background-color: black; color: beige;">BR</b>Architects</span>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <hr>
+            <br>
+            <div class="container1">
+                <img src="./media/house5.jpg" width="350px" height="250px">
+                <div class="text1" style="margin:0px;">SUMMER HOUSE</div>
+                <img src="./media/house2.jpg" width="350px" height="250px">
+                <div class="text1" style="margin: 0px 360px;">BRICK HOUSE</div>
+                <img src="./media/house3.jpg" width="350px" height="250px">
+                <div class="text1" style="margin: 0px 720px;">RENOVATED</div>
+                <img src="./media/house4.jpg" width="350px" height="250px">
+                <div class="text1" style="margin: 0px 1080px; width:110px;">BARN HOUSE</div>
+            </div>
+            <br>
+            <div class="container2">
+                    <img src="./media/house6.jpg" width="350px" height="250px">
+                <div class="text">SUMMER HOUSE</div>
+                    <img src="./media/house7.jpg" width="350px" height="250px">
+                <div class="text1" style="margin: 0px 360px;">BRICK HOUSE</div>
+                    <img src="./media/house8.jpg" width="350px" height="250px">
+                <div class="text1" style="margin: 0px 720px;">RENOVATED</div>
+                    <img src="./media/house9.jpg" width="350px" height="250px">
+                <div class="text1" style="margin: 0px 1080px; width:110px;">BARN HOUSE</div>
+            </div>
+        </section>
+        <section id="About">
+            <h2>About</h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita eos in beatae facere, at, quaerat officia animi voluptates fugiat et quas eaque harum minus nam accusamus enim ea? Incidunt, voluptate!</p>
+        <div style="float: left;margin-left:30px;">
+            <img src="./media/JOHN DOE.jpg" width="300px" height="300px">
+            <h2>JOHN DOE</h2>
+            <p style="color:cadetblue">CE0 & C0-FOUNDER</p>
+            <p style="text-align: left; width:300px; text-transform: lowercase; text-align: justify;">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <p  class="cntct" style="background-color: antiquewhite; color: black; width:300px; height:30px; text-align: center;">Contact</p> 
+        </div>
+        <div  class="about1" style="margin-left: 30px; display:inline-block;">
+            <img src="./media/JOHN DOE1.jpg" width="300px" height="300px" padding="20px;">
+            <h2 >JANE DOE</h2> 
+            <p style="color:rgb(130, 103, 155);">ARCHITECT</p>
+            <p style="text-align: left; width:300px; text-transform: lowercase; text-align: justify;">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <p  class="cntct" style="background-color: antiquewhite; color: black; width:300px; height:30px; text-align: center;">Contact</p> 
+        </div>
+        <div class="about2" style="margin-left:50px; display:inline-block;">
+            <img src="./media/MIKE ROSS.jpg" width="300px" height="300px">
+            <h2>MIKE ROSS</h2><p style="color:rgb(130, 103, 155);">ARCHITECT</p>
+            <p style="text-align: left; width:300px; text-transform: lowercase; text-align: justify;">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <p  class="cntct" style="background-color: antiquewhite; color: black; width:300px; height:30px; text-align: center;">Contact</p>
+         </div>
+        <div class="about3" style="margin-left:40px; display: inline-block;">
+             <img src="./media/DAN STAR.jpg" width="300px" height="300px">
+             <h2>DAN STAR</h2>
+             <p style="color:rgb(130, 103, 155);">ARCHITECT</p>
+             <p style="text-align: left; width:300px; text-transform: lowercase; text-align: justify;">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+             <p  class="cntct" style="background-color: antiquewhite; color: black; width:300px; height:30px; text-align: center;">Contact</p> </div>
+        </div>
+        <section id="Contact">
+            <div class="contactinfo">
+                <h2>Contact</h2>
+                <p>Lets get in touch and talk about your next project.</p>
+                <label for="name"></label>
+                <input type="" id="name" class="name" placeholder="Name" width="100%;"padding="20px;"><br><br>
+                <input type="" placeholder="Email" width="100%" padding="20px;"><br><br>
+                <input type="" placeholder="Subject" width="100%"padding="20px;"><br><br>
+                <input type="" placeholder="Comment" width="100%" padding="20px;"><br><br>
+                <button  class="btn"style="background-color: black; color:white;" width="250px;">SEND MESSAGE</button>
+            </div>
+        </section>
+        <br>
+        <div class="map">
+            <img src="./media/map.jpg" width="100%">
+        </div>
+        <br>
+        <footer class="footr">
+            <p>powered by <a href="https://www.arkadesign.studio/">Architect</a></p>
+        </footer>
+
+
+
+
+
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
